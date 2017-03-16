@@ -12,7 +12,7 @@ class Pokemon {
 
     // Properties
     private var _name: String!
-    private var _pokedexID: Int!
+    private var _pokedexId: Int!
     
     
     // Getters
@@ -21,16 +21,16 @@ class Pokemon {
         return _name
     }
     
-    var pokedexID: Int {
+    var pokedexId: Int {
     
-        return _pokedexID
+        return _pokedexId
     }
     
     // Initializer
     init(name: String, pokedexId: Int) {
         
         self._name = name
-        self._pokedexID = pokedexId
+        self._pokedexId = pokedexId
     }
     
 }
