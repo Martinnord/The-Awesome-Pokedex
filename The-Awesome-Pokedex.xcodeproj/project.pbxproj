@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19D401FE1E7B2F5600786C77 /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = 19D401FD1E7B2F5600786C77 /* pokemon.csv */; };
 		19FA036A1E7B29C700CF7C80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FA03691E7B29C700CF7C80 /* AppDelegate.swift */; };
 		19FA036C1E7B29C700CF7C80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FA036B1E7B29C700CF7C80 /* ViewController.swift */; };
 		19FA036F1E7B29C700CF7C80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19FA036D1E7B29C700CF7C80 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		19D401FD1E7B2F5600786C77 /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 		19FA03661E7B29C700CF7C80 /* The-Awesome-Pokedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The-Awesome-Pokedex.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		19FA03691E7B29C700CF7C80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		19FA036B1E7B29C700CF7C80 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 				19FA036B1E7B29C700CF7C80 /* ViewController.swift */,
 				19FA036D1E7B29C700CF7C80 /* Main.storyboard */,
 				19FA03701E7B29C700CF7C80 /* Assets.xcassets */,
+				19D401FD1E7B2F5600786C77 /* pokemon.csv */,
 				19FA03721E7B29C700CF7C80 /* LaunchScreen.storyboard */,
 				19FA03751E7B29C700CF7C80 /* Info.plist */,
 			);
@@ -126,6 +129,7 @@
 			files = (
 				19FA03741E7B29C700CF7C80 /* LaunchScreen.storyboard in Resources */,
 				19FA03711E7B29C700CF7C80 /* Assets.xcassets in Resources */,
+				19D401FE1E7B2F5600786C77 /* pokemon.csv in Resources */,
 				19FA036F1E7B29C700CF7C80 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +306,7 @@
 				19FA037A1E7B29C700CF7C80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
